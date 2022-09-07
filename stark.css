@@ -1,0 +1,254 @@
+body{
+    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top -422px left -22px, bottom -443px right -46px;
+    background-size: contain
+}
+
+
+main{
+    padding: 10px;
+    font-family: 'League Spartan', sans-serif;   
+}
+
+
+.block1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.heading{
+    color:hsl(300, 43%, 22%) ;
+}
+
+.dealing{
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+    font-size: 18px;
+}
+
+
+.reviews{
+    margin-bottom: 0px;
+}
+
+.report{
+    margin-bottom: 0px;
+}
+
+.tech{
+    margin-bottom: 0px;
+}
+
+
+
+
+.rating1{
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.rating2{
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.rating3{
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+
+   
+}
+
+.star5{
+    
+    background-image: url("./images/icon-star.svg" );
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+
+.comment1{
+    padding: 20px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.comment2{
+    padding: 20px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.comment3{
+    padding: 20px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.line1{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dp1{
+    background-image: url("./images/image-colton.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.dp2{
+    background-image: url("./images/image-irene.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.dp3{
+    background-image: url("./images/image-anne.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.details{
+    margin-left: 20px;
+}
+
+.name{
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    margin: 0px;
+}
+
+.verify{
+    font-weight: 500;
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.writting{
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    margin: 0px;
+}
+
+
+@media screen and (min-width: 800px){
+
+    body{
+        background-image: url("./images/bg-pattern-bottom-desktop.svg"), url("./images/bg-pattern-top-desktop.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: left bottom, right top;
+       
+    }
+
+   main{
+    padding: 40px;
+    margin: 40px;
+   }
+   
+    .block1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100vh;
+   } 
+
+   .part1{
+    text-align: left;
+    width: 50%;
+    margin-right: 50px;
+   }
+
+   .part2{
+    width: 50%;
+   }
+
+   .heading{
+    margin-right: 50px;
+    margin-top: 0px;
+   }
+
+   .rating1{
+    margin-right: 60px;
+   }
+
+   .rating2{
+    margin-left: 30px;
+    margin-right: 30px;
+   }
+
+   .rating3{
+    margin-left: 60px;
+   }
+
+   .block2{
+    display: flex;
+    align-items: center;
+
+   }
+
+   .comment1{
+    margin-right: 20px;
+    margin-bottom: 40px;
+   }
+
+   .comment2{
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .comment3{
+    margin-top: 40px;
+    margin-bottom: 0px;
+   }
+
+
+}
+    
+
+
+
+
+
+
+
+
